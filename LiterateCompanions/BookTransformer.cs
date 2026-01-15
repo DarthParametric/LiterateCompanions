@@ -71,7 +71,8 @@ internal static class BookTransformer
                 a.m_Icon = orig.m_Icon;
                 a.m_Cost = orig.m_Cost;
                 a.m_Weight = orig.m_Weight;
-                a.m_IsNotable = false;
+                a.m_IsNotable = true;
+                a.m_IsJunk = false;
                 a.m_Destructible = true;
                 a.m_ShardItem = TomeOfClearThoughtPlus2.m_ShardItem;
                 a.m_MiscellaneousType = TomeOfClearThoughtPlus2.m_MiscellaneousType;
